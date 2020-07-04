@@ -1,9 +1,9 @@
-package com.codingwithmitch.googlemaps2018.ui;
+package com.codingwithmitch.googlemaps.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -11,9 +11,9 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.UserClient;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.codingwithmitch.googlemaps.R;
+import com.codingwithmitch.googlemaps.UserClient;
+import com.codingwithmitch.googlemaps.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

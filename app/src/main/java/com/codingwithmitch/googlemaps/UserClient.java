@@ -1,8 +1,8 @@
-package com.codingwithmitch.googlemaps2018;
+package com.codingwithmitch.googlemaps;
 
 import android.app.Application;
 
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.codingwithmitch.googlemaps.models.User;
 
 
 public class UserClient extends Application {

@@ -1,19 +1,19 @@
-package com.codingwithmitch.googlemaps2018.ui;
+package com.codingwithmitch.googlemaps.ui;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.adapters.UserRecyclerAdapter;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.codingwithmitch.googlemaps.R;
+import com.codingwithmitch.googlemaps.adapters.UserRecyclerAdapter;
+import com.codingwithmitch.googlemaps.models.User;
 
 import java.util.ArrayList;
 

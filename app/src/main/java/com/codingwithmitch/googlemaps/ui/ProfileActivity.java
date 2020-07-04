@@ -1,7 +1,7 @@
-package com.codingwithmitch.googlemaps2018.ui;
+package com.codingwithmitch.googlemaps.ui;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,9 +10,9 @@ import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.UserClient;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.codingwithmitch.googlemaps.R;
+import com.codingwithmitch.googlemaps.UserClient;
+import com.codingwithmitch.googlemaps.models.User;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
