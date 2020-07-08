@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/linkBlue"
-            android:text="Choose an avatar"
+            android:text="@string/choose_an_avatar"
             android:layout_below="@+id/image_choose_avatar"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoogleMaps2018</string>
+    <string name="app_name">GoogleMaps</string>
 
 
     <!-- Strings related to login -->
@@ -48,6 +48,7 @@
     <string name="action_leave_chatroom">Leave chatroom</string>
     <string name="action_chatroom_user_list">User list</string>
     <string name="action_profile">Profile</string>
+    <string name="choose_an_avatar">Choose an avatar</string>
 
 
 </resources>

@@ -68,7 +68,8 @@ public class ImageListFragment extends Fragment implements ImageListRecyclerAdap
     }
 
     private void initRecyclerview(){
-        ImageListRecyclerAdapter mAdapter = new ImageListRecyclerAdapter(getActivity(), mImageResources, this);
+        ImageListRecyclerAdapter mAdapter = new ImageListRecyclerAdapter(getActivity(),
+                mImageResources, this);
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(NUM_COLUMNS, LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(staggeredGridLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
